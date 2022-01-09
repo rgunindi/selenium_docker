@@ -1,0 +1,15 @@
+RUN curl http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_83.0.4103.116-1_amd64.deb -o /chrome.deb
+RUN dpkg -i /chrome.deb || apt-get install -yf
+RUN rm /chrome.deb
+
+# Install chromedriver for Selenium
+RUN curl https://chromedriver.storage.googleapis.com/83.0.4103.39/chromedriver_linux64.zip -o /tmp/chromedriver.zip \
+    && unzip /tmp/chromedriver.zip -d /usr/local/bin/ \
+    && rm /tmp/chromedriver.zip
+
+RUN chmod +x /usr/local/bin/chromedriver
+
+COPY testng testng
+COPY entrypoint.sh entrypoint.sh
+COPY target/SeleniumDocker-1.0-SNAPSHOT-fat-tests.jar SeleniumDocker-1.0-SNAPSHOT-fat-tests.jar
+ENTRYPOINT ["/entrypoint.sh"]
