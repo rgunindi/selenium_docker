@@ -1,0 +1,266 @@
+repo_name: rgunindi/selenium_docker
+report_id: d558bd582d6c85360b87a5dcaacd8b89
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T19:44:41+00:00'
+requested_by: CoderDesigner
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: Gherkin
+  description: A plain-text language with a simple structure
+  website_url: https://cucumber.io/docs/gherkin/reference/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: Compose
+  description: 'We host databases for busy devs: production-ready, cloud-hosted, open
+    source.'
+  website_url: https://www.compose.io/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: MongoDB Hosting
+  image_url: https://img.stackshare.io/service/201/reB72Lh4.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: Apache Maven
+  description: Apache build manager for Java projects.
+  website_url: http://maven.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: Appium
+  description: Automation for iOS and Android Apps
+  website_url: http://appium.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Mobile Testing Frameworks
+  image_url: https://img.stackshare.io/service/2855/0KVJyYNC_400x400.jpg
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker
+  detection_source: Repo Metadata
+- name: GitHub
+  description: Powerful collaboration, review, and code management for open source
+    and private development projects
+  website_url: https://github.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Collaboration & Version Control
+  image_url: https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: TestNG
+  description: A testing framework inspired from JUnit and NUnit
+  website_url: http://testng.org/doc/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/8900/no-img-open-source.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: hub
+  description: Wraps Git with extra features that make working with GitHub easier
+    (by GitHub)
+  website_url: http://hub.github.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker
+  detection_source: Repo Metadata
+- name: io.appium:java-client
+  description: Java client for Appium Mobile Webdriver
+  version: 7.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: io.cucumber:cucumber-java
+  description: Cucumber for the JVM
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: io.cucumber:cucumber-junit
+  description: Cucumber for the JVM
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+- name: org.testng:testng
+  description: Testing framework for Java
+  version: 7.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/selenium_docker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: RAMAZAN Günindi
+  last_updated_on: 2022-01-09 22:30:50.000000000 Z
+  vulnerabilities:
+  - name: TestNG is vulnerable to Path Traversal
+    cve_id: CVE-2022-4065
+    cve_url: https://github.com/advisories/GHSA-rc2q-x9mf-w3vf
+    detected_date: Dec 3
+    severity: high
+    first_patched: 7.5.1
